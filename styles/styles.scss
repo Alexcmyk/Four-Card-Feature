@@ -1,2 +1,51 @@
 @import 'global';
-@import 'header'
+@import 'header';
+@import 'content';
+
+
+@media (max-width:1040px) {
+  
+    .content  {
+      display: grid;
+    }
+  
+  }
+
+  @media (max-width:500px) {
+  
+    .wrapper  {
+      padding: 5px;
+    }
+
+    .main h1,
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .main p {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .content {
+        margin-top: 0;
+
+    .super,
+    .team,
+    .karma,
+    .calculator {
+        margin: 10px 10px;
+    }
+
+    .group .karma {
+        margin-top: 20px;
+    }
+
+
+    }
+
+    
+
+
+  
+  }

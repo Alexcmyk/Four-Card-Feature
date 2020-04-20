@@ -1,0 +1,61 @@
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .super,
+    .team,
+    .karma,
+    .calculator {
+        display: flex;
+        flex-flow: column;
+        padding: 30px;
+        background-color: $cardColor;
+        margin: 20px 10px;
+        border-radius: 10px;
+        box-shadow: 0 10px 15px rgba(16, 54, 104, 0.253);
+        max-width: 310px;
+        height: 220px;
+        font-family: $mainFont;
+
+        h3 {
+            font-size: 18px;
+            color: $mainTitle;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 13px;
+            color: $secondary;
+        }
+
+        img {
+            margin-top: 25px;
+            max-width: 50px;
+            align-self: flex-end ;
+        }
+    }
+
+    .super {
+        border-top: 3px solid $cyan;
+    }
+
+    .team {
+        border-top: 3px solid $red;
+    }
+
+    .karma {
+        border-top: 3px solid $orange;
+    
+    }
+
+    .calculator {
+        border-top: 3px solid $blue;
+    }
+
+
+}

@@ -134,4 +134,118 @@ body {
   line-height: 1.75;
   font-size: 14px;
 }
+
+.content {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .super,
+.content .team,
+.content .karma,
+.content .calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 30px;
+  background-color: #fafafa;
+  margin: 20px 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 15px rgba(16, 54, 104, 0.253);
+          box-shadow: 0 10px 15px rgba(16, 54, 104, 0.253);
+  max-width: 310px;
+  height: 220px;
+  font-family: "Poppins";
+}
+
+.content .super h3,
+.content .team h3,
+.content .karma h3,
+.content .calculator h3 {
+  font-size: 18px;
+  color: #4c4e61;
+  margin-bottom: 5px;
+}
+
+.content .super p,
+.content .team p,
+.content .karma p,
+.content .calculator p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #a3a5ae;
+}
+
+.content .super img,
+.content .team img,
+.content .karma img,
+.content .calculator img {
+  margin-top: 25px;
+  max-width: 50px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.content .super {
+  border-top: 3px solid #45d3d3;
+}
+
+.content .team {
+  border-top: 3px solid #ea5353;
+}
+
+.content .karma {
+  border-top: 3px solid #fcaf4a;
+}
+
+.content .calculator {
+  border-top: 3px solid #549ef2;
+}
+
+@media (max-width: 1040px) {
+  .content {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 5px;
+  }
+  .main h1,
+  .main h2 {
+    font-size: 20px;
+  }
+  .main p {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  .content {
+    margin-top: 0;
+  }
+  .content .super,
+  .content .team,
+  .content .karma,
+  .content .calculator {
+    margin: 10px 10px;
+  }
+  .content .group .karma {
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
