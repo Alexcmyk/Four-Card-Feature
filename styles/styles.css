@@ -150,10 +150,7 @@ body {
           align-items: center;
 }
 
-.content .super,
-.content .team,
-.content .karma,
-.content .calculator {
+.content .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,47 +169,38 @@ body {
   font-family: "Poppins";
 }
 
-.content .super h3,
-.content .team h3,
-.content .karma h3,
-.content .calculator h3 {
+.content .card h3 {
   font-size: 18px;
   color: #4c4e61;
   margin-bottom: 5px;
 }
 
-.content .super p,
-.content .team p,
-.content .karma p,
-.content .calculator p {
+.content .card p {
   font-weight: 400;
   font-size: 13px;
   color: #a3a5ae;
 }
 
-.content .super img,
-.content .team img,
-.content .karma img,
-.content .calculator img {
+.content .card img {
   margin-top: 25px;
   max-width: 50px;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
 
-.content .super {
+.content .cyan {
   border-top: 3px solid #45d3d3;
 }
 
-.content .team {
+.content .red {
   border-top: 3px solid #ea5353;
 }
 
-.content .karma {
+.content .orange {
   border-top: 3px solid #fcaf4a;
 }
 
-.content .calculator {
+.content .blue {
   border-top: 3px solid #549ef2;
 }
 
